@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Engine j.d.o.o.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Arial", sans-serif;
+            background: #f2f2f2;
+            color: #000;
+        }
+        section {
+            padding: 80px 12%;
+            border-bottom: 3px solid #000;
+        }
+        h1, h2, h3 {
+            font-family: "Arial Black", sans-serif;
+            letter-spacing: -1px;
+            margin: 0 0 20px 0;
+        }
+        button, input, textarea {
+            font-family: inherit;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+        .hero button {
+            margin-top: 30px;
+            padding: 15px 35px;
+            font-size: 18px;
+            border: 3px solid #000;
+            background: transparent;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .hero button:hover {
+            background: #000;
+            color: #fff;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .about img {
+            width: 45%;
+            border: 3px solid #000;
+        }
+        .services-grid, .advantages-grid, .process-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+        .contact-section {
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact-form {
+            width: 45%;
+            border: 3px solid #000;
+            padding: 30px;
+            background: #fff;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 2px solid #000;
+            background: #f9f9f9;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            border: 3px solid #000;
+            background: transparent;
+            cursor: pointer;
+        }
+        footer {
+            padding: 40px 12%;
+            text-align: center;
+            font-size: 14px;
+            background: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Number Engine j.d.o.o.</h1>
+    <h2>Strateški partner za poslovnu transformaciju, optimizaciju procesa i tehnološku stabilnost. 
+        Naš fokus je usmjeren na rješenja koja pružaju jasne rezultate, povećavaju učinkovitost i omogućuju održiv rast.</h2>
+    <a href="#kontakt"><button>Kontakti</button></a>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <div>
+        <h2>Naša priča i vizija</h2>
+        <p>Number Engine j.d.o.o. pruža savjetodavne usluge za poduzeća koja žele unaprijediti svoje poslovanje kroz jasnu strategiju, preciznu analizu i tehnološku podršku. 
+            Naš pristup temelji se na dubinskom razumijevanju industrija, procesa i specifičnih izazova s kojima se klijenti susreću. 
+            Radimo na rješenjima koja su praktična, primjenjiva i mjerljiva. 
+            Naš tim kombinira znanje iz menadžmenta, IT sustava i poslovne optimizacije kako bi klijentima pružio održiv napredak. 
+            Vjerujemo u transparentnost, dugoročna partnerstva i stalno poboljšanje.</p>
+    </div>
+    <img src="https://media.istockphoto.com/id/505922554/photo/colleagues-throwing-papers-in-basket-at-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=mU6GNtOz-ahPKzC35DBhRyJrZtlvJIPh5FZrvBNRPwc=" alt="Number Engine">
+</section>
+
+<!-- SERVICES -->
+<section>
+    <h2>Što radimo – konkretne usluge</h2>
+    <div class="services-grid">
+        <div>
+            <h3>Management Consulting</h3>
+            <p>Pomažemo tvrtkama definirati strateške ciljeve, optimizirati organizacijske strukture i uspostaviti jasne operativne modele. 
+                Naš rad omogućava bržu prilagodbu promjenama tržišta i jačanje internih kapaciteta.</p>
+        </div>
+        <div>
+            <h3>Business Consulting</h3>
+            <p>Analiziramo ključne procese, identificiramo neučinkovitosti te predlažemo rješenja koja donose mjerljive rezultate. 
+                Posebnu pažnju posvećujemo financijskim modelima, rastu i optimizaciji poslovnih tokova.</p>
+        </div>
+        <div>
+            <h3>IT Support & Optimizacija</h3>
+            <p>Nudimo potpunu IT podršku – od tehničke stabilnosti do implementacije novih sustava. 
+                Fokusiramo se na sigurnost, brzinu i pouzdanost kako bi vaše poslovanje radilo bez prekida.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ADVANTAGES -->
+<section>
+    <h2>Zašto klijenti biraju nas</h2>
+    <div class="advantages-grid">
+        <div>
+            <h3>Praktična rješenja</h3>
+            <p>Ne nudimo teorijske modele nego konkretne korake koje je moguće odmah primijeniti u poslovanju.</p>
+        </div>
+        <div>
+            <h3>Dubinsko razumijevanje</h3>
+            <p>Kombiniramo znanje iz više industrija i tehnoloških područja kako bismo klijentima pružili jasno i potpuno rješenje.</p>
+        </div>
+        <div>
+            <h3>Dugoročno partnerstvo</h3>
+            <p>Naš pristup temelji se na povjerenju i kontinuiranoj suradnji, s ciljem stalnog napretka i rasta.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+    <h2>Kako radimo – naš proces</h2>
+    <div class="process-grid">
+        <div>
+            <h3>1. Analiza i dijagnostika</h3>
+            <p>Detaljno razumijevanje poslovanja, izazova i ciljeva klijenta kao temelj za daljnje korake.</p>
+        </div>
+        <div>
+            <h3>2. Izrada rješenja</h3>
+            <p>Razvijamo strategije, modele i tehnička rješenja koja najbolje odgovaraju specifičnim potrebama.</p>
+        </div>
+        <div>
+            <h3>3. Implementacija i podrška</h3>
+            <p>Provodimo predložene mjere i pružamo stalnu podršku kako bi rezultati bili održivi i mjerljivi.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="kontakt">
+    <div style="width:45%;">
+        <h2>Stupite u kontakt s nama</h2>
+        <p>Želite unaprijediti svoje poslovanje ili trebate pouzdanu IT podršku?  
+           Rado ćemo vam pomoći pronaći pravo rješenje. Javite nam se putem e-pošte i započnimo suradnju.</p>
+        <p><strong>E-mail:</strong> office@numberengine.org<br>
+           <strong>Adresa:</strong> Ilica 71, 10000 Zagreb</p>
+    </div>
+
+    <div class="contact-form">
+        <h3>Kontakt forma</h3>
+        <input type="text" placeholder="Ime i prezime">
+        <input type="email" placeholder="Email">
+        <textarea rows="4" placeholder="Poruka"></textarea>
+        <button>Pošalji</button>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 Number Engine j.d.o.o. Sva prava pridržana.
+</footer>
+
+</body>
+</html>
